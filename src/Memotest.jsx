@@ -32,6 +32,7 @@ function Memotest() {
   useEffect(() => {
     if (guessed.length === images.length) {
      setOpenModal(true)
+     setGuessed([])
     }
   }, [guessed]);
 
