@@ -4,13 +4,13 @@ import Modal from "./Modal";
 const images = [
   "https://icongr.am/devicon/angularjs-original.svg?size=100&color=currentColor",
   "https://icongr.am/devicon/apple-original.svg?size=100&color=currentColor",
-  // "https://icongr.am/devicon/git-original.svg?size=100&color=currentColor",
-  // "https://icongr.am/devicon/javascript-original.svg?size=100&color=d11f1f",
-  // "https://icongr.am/devicon/cplusplus-original.svg?size=100&color=currentColor",
-  // "https://icongr.am/devicon/postgresql-original.svg?size=100&color=currentColor",
-  // "https://icongr.am/devicon/python-original.svg?size=100&color=currentColor",
-  // "https://icongr.am/devicon/react-original.svg?size=100&color=currentColor",
-  // "https://icongr.am/devicon/css3-original.svg?size=100&color=currentColor",
+  "https://icongr.am/devicon/git-original.svg?size=100&color=currentColor",
+  "https://icongr.am/devicon/javascript-original.svg?size=100&color=d11f1f",
+  "https://icongr.am/devicon/cplusplus-original.svg?size=100&color=currentColor",
+  "https://icongr.am/devicon/postgresql-original.svg?size=100&color=currentColor",
+  "https://icongr.am/devicon/python-original.svg?size=100&color=currentColor",
+  "https://icongr.am/devicon/react-original.svg?size=100&color=currentColor",
+  "https://icongr.am/devicon/css3-original.svg?size=100&color=currentColor",
 ]
   .flatMap((image) => [`a|${image}`, `b|${image}`])
   .sort(() => Math.random() - 0.5);
