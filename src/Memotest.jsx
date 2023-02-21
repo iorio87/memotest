@@ -42,7 +42,7 @@ function Memotest() {
         const [, url] = image.split("|");
         return (
           <li
-            className="border-2 border-solid border-black rounded-md p-5 cursor-pointer"
+            className="border-4 border-solid border-black rounded-md p-5 cursor-pointer bg-yellow-100"
             key={image}
             onClick={() => {
               selected.length < 2 && 
@@ -55,7 +55,7 @@ function Memotest() {
             ) : (
               <img
                 src="https://icongr.am/fontawesome/question.svg?size=100&color=currentColor"
-                alt="dorso"
+                alt="dorso"                
               />
             )}
           </li>
